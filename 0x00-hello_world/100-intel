@@ -1,9 +1,2 @@
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: always 0 (Success)
- */
-int main(void)
 #!/bin/bash
-gcc -S -mams=intel $CFILE
+gcc -S -masm=intel $CFILE
